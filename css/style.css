@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #18191F;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+a{
+	margin:0;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+a, select , input , textarea , button{
+	outline: none !important;
+}
+
+/* colors */
+.c-tag-1{
+    color: #18191F;
+}
+
+.c-tag-2{
+    color: #575757;
+}
+
+.c-tag-3{
+    color: #E6293E;
+}
+
+/* background colors */
+
+
+/* buttons */
+.btn-tag-1 {
+    background: linear-gradient(88.33deg, hsl(354deg 85% 78%) -7.64%, #f7041f 68.94%);
+    border-radius: 100px;
+    padding: 10px 50px;
+    color: white;
+}
+
+/* fonts */
+.reg-18{
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.medi-20{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.semi-28{
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.bold-40{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.bold-60{
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 70px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header starts */
+.header, .hero, .recipe, .followers{
+    width: 100%;
+}
+
+.head-wrapper{
+    overflow: hidden;
+}
+
+.brand{
+    float: left;
+}
+
+.login-btn{
+    float: right;
+    margin-top: 20px;
+}
+
+/* hero starts */
+
+.hero-left{
+    width: 40%;
+    float: left;
+    padding: 10% 5%;
+}
+
+.hero-left p{
+    padding: 40px 0;
+}
+
+.hero-right{
+    float: right;
+    width: 40%;
+}
+
+.hero-right img {
+    width: 80%;
+    margin-top: 70px;
+}
+
+/* about starts */
+.about{
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-left {
+    width: 47%;
+    text-align: center;
+    float: left;
+    margin-top: 120px;
+}
+
+.about-left img{
+    width: 60%;
+}
+
+.about-right{
+    width: 33%;
+}
+
+/* recipe starts */
+.recipe-wraper{
+    margin-bottom: 200px;
+}
+
+.recipe-top{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.recipe-top h2{
+    padding-bottom: 40px;
+}
+
+.recipe-bottom{
+    width: 100%;
+}
+
+.card-item{
+    width: 26%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    float: left;
+    padding: 2%;
+}
+
+.card-item img{
+    width: 100%;
+}
+
+
+.card-item h3{
+    padding: 20px 0;
+}
+
+.c-item-two{
+    margin: 0 4%;
+}
+
+/* followers starts */
+.count-wrapper {
+    width: 100%;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.counts{
+    width: 28%;
+    float: left;
+    padding: 5% 2%;
+}
+
+.extra {
+	width: 100%;
+	padding: 200px 0;
+}
+
+.templates {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.templates p {
+	margin-bottom: 45px;
+}
+
+.mockups .mock-img {
+	padding: 6px;
+	display: inline;
+}
+
+.mock-img img {
+	height: 255px;
+	margin-bottom: 15px;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #FDEAEC;
+}
+
+.footer h6{
+    padding-bottom: 30px;
+}
